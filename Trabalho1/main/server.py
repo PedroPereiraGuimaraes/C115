@@ -1,6 +1,5 @@
 from socket import *
 import connection
-import json
 
 serverPort = 3000
 serverSocket = socket(AF_INET, SOCK_STREAM)
