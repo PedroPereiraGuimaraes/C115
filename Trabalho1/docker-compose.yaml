@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: <root>
+      MYSQL_DATABASE: questions
+    volumes:
+      - todo-mysql-data:/var/lib/mysql
+volumes:
+  todo-mysql-data:
