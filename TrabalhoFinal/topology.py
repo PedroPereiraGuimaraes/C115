@@ -32,5 +32,7 @@ class MyTopo(Topo):
         self.addLink(s2, s3)
         self.addLink(s3, s4)
 
+        print("Tolopogy created")
+
 
 topos = {'topology': (lambda: MyTopo())}
